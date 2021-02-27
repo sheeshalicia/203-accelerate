@@ -20,7 +20,7 @@ add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' );
 
 //Custom Post Type
 function create_custom_post_types () {
-	register_post_type( 'case_studies'),
+	register_post_type( 'case_studies',
 		array(
 			'labels' => array(
 				'name' => __( 'Case Studies' ),

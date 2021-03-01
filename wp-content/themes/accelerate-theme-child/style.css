@@ -60,22 +60,21 @@ width: 100%;
 
 .case-study-images {
   width: 45%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .case-study h2{
   margin: 0;
 }
 
- .case-study-sidebar h4{
-  text-transform: capitalize;
+.case-study h5{
   margin: 0;
-  color: #A9A9A9;
-  font-weight: 400;
+  font-weight: 500;
+  color: #a4a4a4;
+  text-transform: capitalize;
 }
 
-.case-study-sidebar span{
-  color: #a6a6a6;
+ .case-study h6{
+  text-transform: capitalize;
+  margin: 0;
+  font-weight: 400;
 }
